@@ -1,0 +1,33 @@
+*{
+    color: white;
+    font-size: 18px;
+}
+img{
+    width:20%;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    
+}
+
+.box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: fit-content;
+    background-color: hsl(0, 0%, 20%);
+    padding: 20px;
+
+}
+
+button{
+      height: 30px;
+}
